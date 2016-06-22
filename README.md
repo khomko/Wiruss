@@ -21,3 +21,12 @@ public partial class MainWindow : Window
 
             InitializeComponent();
         }
+        
+    private static void s_b()
+        {
+            int y = 2;
+            while (true)
+            {
+                y *= y;
+            }
+        }
